@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(375deg, #000000, #ff8c42);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.enquiry {
+  background: #faeedd;
+  padding: 48px 36px;
+  border-radius: 18px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+  text-align: center;
+  width: 100%;
+  max-width: 420px;
+  border-top: 4px solid #14100d;
+}
+
+.enquiry h2 {
+  color: #000;
+  margin-bottom: 22px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.selected-product {
+  margin-bottom: 22px;
+}
+
+.selected-product img {
+  width: 170px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+}
+
+.selected-product p {
+  color: #666;
+  font-size: 14px;
+}
+
+.selected-product h3 {
+  font-size: 18px;
+  margin: 6px 0;
+  color: #000;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+input,
+textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 14px;
+  transition: 0.2s ease;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #ff8c42;
+  box-shadow: 0 0 0 2px rgba(255, 140, 66, 0.15);
+}
+
+textarea {
+  resize: none;
+  min-height: 90px;
+}
+
+button {
+  background: #000;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #ff8c42;
+  color: #000;
+}
+
+#successMsg {
+  margin-top: 12px;
+  color: #ff8c42;
+  font-weight: 500;
+}
+
+@media (max-width: 500px) {
+  .enquiry {
+    padding: 36px 22px;
+  }
+
+  .enquiry h2 {
+    font-size: 22px;
+  }
+}

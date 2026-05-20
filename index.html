@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Commerce Website</title>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="top-bar">FREE SHIPPING WORLDWIDE</div>
+
+  <header class="main-header">
+    <img src="images/logo.jpg" alt="Logo" class="logo">
+    <span class="material-icons menu-toggle">menu</span>
+
+    <div class="nav-wrapper">
+      <nav class="menu">
+        <a href="#home">Home</a>
+        <a href="#products">Shop</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="icons">
+        <span class="material-icons">person</span>
+        <span class="material-icons">shopping_cart</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+  <div class="hero-content">
+    <h1>Chase Time, Not Trends.</h1>
+    <p>Discover the art of perfect timing. Wear confidence in every tick.</p>
+    <a href="#products" class="shop-btn">Shop Now</a>
+  </div>
+  </section>
+
+<section id="products" class="product-list">
+  <h2>Our Watches</h2>
+
+  <div  class="products">
+
+    <div class="product">
+      <img src="images/p1.jpg" alt="Watch">
+      <p class="code">Code: FT101</p>
+      <h3>Neon Digital Watch</h3>
+      <p class="price">₹1999</p>
+      <button onclick="goToEnquiry('FT101','Neon Digital Watch',1999,'images/p1.jpg')">Buy Now</button>
+    </div>
+
+    <div class="product">
+      <img src="images/p2.jpg" alt="Watch">
+      <p class="code">Code: FT102</p>
+      <h3>Black Analog Watch</h3>
+      <p class="price">₹2499</p>
+      <button onclick="goToEnquiry('FT102','Black Analog Watch',2499,'images/p2.jpg')">Buy Now</button>
+
+    </div>
+
+    <div class="product">
+      <img src="images/p3.jpg" alt="Watch">
+      <p class="code">Code: FT103</p>
+      <h3>Sport Smart Watch</h3>
+      <p class="price">₹3299</p>
+      <button onclick="goToEnquiry('FT103','Sport Smart Watch',3299,'images/p3.jpg')">Buy Now</button>
+
+    </div>
+
+    <div class="product">
+      <img src="images/p4.jpg" alt="Watch">
+      <p class="code">Code: FT104</p>
+      <h3>Classic Silver Watch</h3>
+      <p class="price">₹2799</p>
+      <button onclick="goToEnquiry('FT104','Classic Silver Watch',2799,'images/p4.jpg')">Buy Now</button>
+    </div>
+
+  </div>
+</section>
+
+<br><br>
+  <section id="about" class="discover">
+  <h2>Get to know us better.</h2>
+  <a href="about.html" class="discover-btn">Discover Us</a>
+</section>
+<br><br>
+
+<footer id="contact" class="footer">
+  <div class="footer-container">
+
+    <div class="footer-brand">
+      <h2>FASTRACK</h2>
+      <p>Bold watches for the generation that moves faster than time.</p>
+    </div>
+
+    <div class="footer-contact">
+      <h3>Contact</h3>
+      <p>Email: support@fastrack.com</p>
+      <p>Phone: +91 987654321, +91 9988776655</p>
+      <p>Kochi, Kerala, India</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 FASTRACK. All rights reserved.
+  </div>
+</footer>
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>

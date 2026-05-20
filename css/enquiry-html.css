@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #eaf7ef;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.confirm {
+  background: #ffffff;
+  padding: 50px 40px;
+  border-radius: 18px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+  text-align: center;
+  max-width: 460px;
+  width: 100%;
+  border-top: 5px solid #28a745;
+}
+
+.confirm h2 {
+  color: #28a745;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.success-icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 18px;
+  border-radius: 50%;
+  background: #28a745;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 36px;
+  box-shadow: 0 6px 18px rgba(40, 167, 69, 0.3);
+}
+
+.confirm-product img {
+  width: 170px;
+  margin: 12px 0 15px;
+  border-radius: 10px;
+}
+
+.confirm-product p {
+  color: #555;
+  margin: 4px 0;
+}
+
+.confirm-product h3 {
+  margin: 6px 0;
+  font-size: 20px;
+  color: #000;
+}
+
+.confirm-user {
+  margin-top: 22px;
+  text-align: left;
+  line-height: 1.8;
+  font-size: 15px;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
+
+.confirm-user strong {
+  color: #000;
+}
+.confirm-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.back-home {
+  margin-top: 25px;
+  
+  background: #000;
+  color: #fff;
+  padding: 12px 26px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.back-home:hover {
+  background: #ff8c42;
+  color: #000;
+}
+
+@media (max-width: 500px) {
+  .confirm {
+    padding: 35px 20px;
+  }
+
+  .confirm h2 {
+    font-size: 22px;
+  }
+
+  .confirm-user {
+    text-align: center;
+  }
+}
